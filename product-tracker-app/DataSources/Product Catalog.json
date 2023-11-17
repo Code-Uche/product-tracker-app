@@ -1,0 +1,181 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr288_productcatalogs",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr288_productcatalog",
+    "MaxGetRowsCount": 500,
+    "Name": "Product Catalog",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr288_codename": "Code Name",
+      "cr288_color": "Color",
+      "cr288_notes": "Notes",
+      "cr288_productcatalog_AsyncOperations": "System Jobs",
+      "cr288_productcatalog_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr288_productcatalog_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr288_productcatalog_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr288_productcatalog_ProcessSession": "Process Sessions",
+      "cr288_productcatalog_SyncErrors": "Sync Errors",
+      "cr288_productcatalogid": "Product Catalog",
+      "cr288_productcategory": "Product Category",
+      "cr288_producttype": "Product Type",
+      "cr288_title": "Title",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Product Catalog",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Product Catalog (Views)",
+    "Name": "_cr288_productcatalog_views",
+    "RelatedEntityName": "Product Catalog",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "11aa6a66-47b0-4863-ac90-5fb2565faf9e": "Active Product Catalog",
+      "349ec3eb-372a-44cf-a2da-44741f30da0a": "Product Catalog Lookup View",
+      "6ec6e3c4-121e-4ac2-b8ae-915f4fdfc2a2": "Product Catalog Advanced Find View",
+      "8295e705-6a31-43fb-a179-368429f2bc18": "Inactive Product Catalog",
+      "a5987dae-95f9-495e-98eb-ea32e63b5ea8": "Product Catalog Associated View"
+    }
+  },
+  {
+    "DisplayName": "Color (Product Catalog)",
+    "Name": "cr288_productcatalog_cr288_color",
+    "OptionSetInfoNameMapping": {
+      "0": "Color",
+      "1": "White",
+      "2": "Black",
+      "3": "Pink",
+      "4": "Chrome/Black",
+      "5": "Blue",
+      "6": "Green",
+      "7": "Yellow",
+      "8": "Red",
+      "9": "Silver"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr288_color",
+        "OptionSetReferenceEntityName": "Product Catalog"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr288_color",
+    "RelatedEntityName": "Product Catalog",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Product Category (Product Catalog)",
+    "Name": "cr288_productcatalog_cr288_productcategory",
+    "OptionSetInfoNameMapping": {
+      "0": "Product Line",
+      "1": "Gaming",
+      "2": "Audio",
+      "3": "Cameras & Camcorders",
+      "4": "Home Theater",
+      "5": "Computers & Tablets"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr288_productcategory",
+        "OptionSetReferenceEntityName": "Product Catalog"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr288_productcategory",
+    "RelatedEntityName": "Product Catalog",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Product Type (Product Catalog)",
+    "Name": "cr288_productcatalog_cr288_producttype",
+    "OptionSetInfoNameMapping": {
+      "0": "Product Type",
+      "1": "Gaming accessories",
+      "10": "Laptops",
+      "2": "Car audio",
+      "3": "SLR camera",
+      "4": "Video",
+      "5": "Headphones",
+      "6": "Speakers",
+      "7": "Action cameras",
+      "8": "Digital cameras",
+      "9": "Desktop computers"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "cr288_producttype",
+        "OptionSetReferenceEntityName": "Product Catalog"
+      }
+    },
+    "OptionSetTypeKey": "PicklistType",
+    "RelatedColumnInvariantName": "cr288_producttype",
+    "RelatedEntityName": "Product Catalog",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status (Product Catalog)",
+    "Name": "cr288_productcatalog_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Product Catalog"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Product Catalog",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Product Catalog)",
+    "Name": "cr288_productcatalog_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Product Catalog"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Product Catalog",
+    "Type": "OptionSetInfo"
+  }
+]

@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Product Catalog\",\"%DataSourceValue.AFD%\":\"[@'Product Catalog']\",\"%SortFieldName.AFD%\":\"\\\"cr288_codename\\\"\",\"%FilterFieldName.AFD%\":\"cr288_codename\",\"%PrimaryNameField.AFD%\":\"\\\"cr288_title\\\"\",\"%PrimaryNameFieldDisplayName.AFD%\":\"'Title'\",\"%SearchFieldName.AFD%\":\"\\\"cr288_codename\\\",\\\"cr288_notes\\\",\\\"cr288_title\\\"\",\"%StartsWithFieldName.AFD%\":\"cr288_codename\",\"%DeleteConfirmFieldName.AFD%\":\"cr288_codename\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%CopilotSinglePageScreen.ID%\":\"MainScreen1\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\"}"
+}
